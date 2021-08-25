@@ -1,9 +1,16 @@
 body {
     display: grid;
     justify-content: center;
+    background-color: rgb(69, 69, 192);
 }
 
 h1, h2, p {
     display: flex;
     justify-content: center;
+    color: white;
+}
+
+p {
+    margin: 20px 30% 20px 30%;
+    font-size: large;
 }
