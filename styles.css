@@ -1,7 +1,7 @@
 body {
     display: grid;
     justify-content: center;
-    background-color: rgb(69, 69, 192);
+    background: linear-gradient(6deg, #3b6ffd 10%, #7b4bff 40%);
 }
 
 h1, h2, p {
@@ -12,6 +12,6 @@ h1, h2, p {
 }
 
 p {
-    margin: 0 30% 0 30%;
+    margin: 100px 30% 0 30%;
     font-size: large;
 }
