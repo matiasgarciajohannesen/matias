@@ -8,9 +8,10 @@ h1, h2, p {
     display: flex;
     justify-content: center;
     color: white;
+    margin-top: 80px;
 }
 
 p {
-    margin: 20px 30% 20px 30%;
+    margin: 0 30% 0 30%;
     font-size: large;
 }
