@@ -1,0 +1,9 @@
+@use 'variables';
+
+body {
+    background-color: variables.$periwinkel;
+}
+
+h1, h2, p {
+    background-color: variables.$hei;
+}
