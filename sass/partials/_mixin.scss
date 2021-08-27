@@ -1,0 +1,8 @@
+@mixin flex {
+    display: grid;
+    justify-content: center;
+}
+
+@mixin margin {
+    margin: 0 150px 0 150px;
+}

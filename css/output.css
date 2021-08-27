@@ -1,8 +1,13 @@
 body {
+  display: grid;
+  justify-content: center;
+  margin: 0 150px 0 150px;
   background-color: #344dbd;
 }
 
 h1, h2, p {
+  display: grid;
+  justify-content: center;
   background-color: #b200f8;
 }
 

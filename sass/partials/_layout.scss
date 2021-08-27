@@ -1,9 +1,14 @@
 @use 'variables';
+@use 'mixin';
+
 
 body {
+    @include mixin.flex;
+    @include mixin.margin;
     background-color: variables.$periwinkel;
 }
 
 h1, h2, p {
+    @include mixin.flex;
     background-color: variables.$hei;
 }
