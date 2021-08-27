@@ -4,11 +4,9 @@
 
 body {
     @include mixin.flex;
-    @include mixin.margin;
-    background-color: variables.$periwinkel;
+    @include mixin.background;
 }
 
 h1, h2, p {
     @include mixin.flex;
-    background-color: variables.$hei;
 }
