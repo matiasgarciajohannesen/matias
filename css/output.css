@@ -13,6 +13,8 @@ body {
 .aboutBox {
   display: grid;
   justify-content: center;
+  display: grid;
+  justify-content: center;
   width: 50%;
 }
 

@@ -9,7 +9,8 @@ body {
 
 .aboutBox {
     @include mixin.box;
-    width: 50%
+    @include mixin.flex;
+    width: 50%;
 }
 
 h1, h2, p {

@@ -1,3 +1,9 @@
 @use 'variables';
 @use 'mixin';
-@use 'background';
+
+body {
+    @include mixin.background;
+    display: grid;
+    align-items: center;
+}
+
