@@ -5,6 +5,7 @@ body {
     @include mixin.background;
     display: grid;
     align-items: center;
+    font-family: variables.$font;
 }
 
 .jobBox {
@@ -12,6 +13,11 @@ body {
     @include mixin.flex;
     width: 50%;
     margin: auto
+}
+
+
+h1, p {
+    color: white;
 }
 
 a {

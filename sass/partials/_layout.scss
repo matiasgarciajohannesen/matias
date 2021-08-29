@@ -5,6 +5,7 @@
 body {
     @include mixin.flex;
     @include mixin.background;
+    font-family: variables.$font;
 }
 
 .aboutBox {
@@ -14,8 +15,16 @@ body {
     margin: auto;
 }
 
+img {
+    @include mixin.box;
+    height: 400px;
+    width: auto;
+    margin: auto;
+}
+
 h1, h2, p {
     @include mixin.flex;
+    color: white;
 }
 
 a {

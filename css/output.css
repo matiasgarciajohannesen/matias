@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap");
 body {
   display: grid;
   justify-content: center;
@@ -8,6 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 30px;
+  font-family: "Hina Mincho", serif;
 }
 
 .aboutBox {
@@ -19,9 +21,49 @@ body {
   margin: auto;
 }
 
+img {
+  display: grid;
+  justify-content: center;
+  height: 400px;
+  width: auto;
+  margin: auto;
+}
+
 h1, h2, p {
   display: grid;
   justify-content: center;
+  color: white;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background: linear-gradient(6deg, #3b6ffd 10%, #7b4bff 40%);
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  display: grid;
+  align-items: center;
+  font-family: "Hina Mincho", serif;
+}
+
+.jobBox {
+  display: grid;
+  justify-content: center;
+  display: grid;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+}
+
+h1, p {
+  color: white;
 }
 
 a {
