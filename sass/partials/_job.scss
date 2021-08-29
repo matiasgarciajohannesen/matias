@@ -7,3 +7,13 @@ body {
     align-items: center;
 }
 
+.jobBox {
+    @include mixin.box;
+    @include mixin.flex;
+    width: 50%;
+    margin: auto
+}
+
+a {
+    @include mixin.button;
+}

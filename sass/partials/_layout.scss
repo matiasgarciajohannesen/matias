@@ -11,8 +11,13 @@ body {
     @include mixin.box;
     @include mixin.flex;
     width: 50%;
+    margin: auto;
 }
 
 h1, h2, p {
     @include mixin.flex;
+}
+
+a {
+    @include mixin.button;
 }
